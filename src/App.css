@@ -1,32 +1,113 @@
 .App {
   text-align: center;
+  background-color: #0069d9;
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.app-flipped {
+  background-color: #e9ecef;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* color header */
+.display-3 {
+  color: #0069d9;
+}
+
+.display-3-flipped {
+  color: #e9ecef;
+}
+/* color header text */
+.jumbotron > p {
+  color: rgb(92, 92, 92);
+}
+
+.gray {
+  color: #e9ecef !important;
+}
+.black {
+  color: black !important;
+}
+
+.jumbotron {
+  background-color: #e9ecef;
+  height: 50vh;
+}
+
+.jumbotron-flipped {
+  background-color: #0069d9 !important;
+}
+
+.jumbotron-p-flipped {
+  color: #0069d9;
+}
+
+.start-btn {
+  opacity: 1;
+  -webkit-transition: all 1s opacity;
+  -moz-transition: all 1s opacity;
+  transition: all 1s opacity;
+  margin-top: 10px;
+}
+.start-btn-flipped {
+  background-color: #e9ecef !important;
+  color: black !important;
+}
+.start-btn-flipped:hover {
+  background-color: #a5a7aa !important;
+}
+
+.badge {
+  margin-left: 5px;
+}
+
+/* error message */
+.message {
+  opacity: 1;
+  -webkit-transition: all 1s opacity;
+  -moz-transition: all 1s opacity;
+  transition: all 1s opacity;
+  margin-top: 10px;
+}
+
+form {
+  display: inline-block;
+  width: 30%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-flipped {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* form sections */
+.section1 {
+  opacity: 1;
+  -webkit-transition: all 1s opacity;
+  -moz-transition: all 1s opacity;
+  transition: all 1s opacity;
+}
+
+.section2 {
+  opacity: 1;
+  -webkit-transition: all 1s opacity;
+  -moz-transition: all 1s opacity;
+  transition: all 1s opacity;
+}
+
+.section3 {
+  opacity: 1;
+  -webkit-transition: all 1s opacity;
+  -moz-transition: all 1s opacity;
+  transition: all 1s opacity;
+}
+
+.section4 {
+  opacity: 1;
+  -webkit-transition: all 1s opacity;
+  -moz-transition: all 1s opacity;
+  transition: all 1s opacity;
+}
+
+.donation-box {
+  margin-top: 10px;
 }
